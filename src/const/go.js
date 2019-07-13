@@ -1,5 +1,6 @@
 export const GO = {
-    DRAW: "draw",
+    CREATE_EVENT: "create_event",
+    EVENTS: "events",
     SUSCRIBE: 'suscribe',
     CONFIRM: 'confirm',
     LOGIN: 'login',

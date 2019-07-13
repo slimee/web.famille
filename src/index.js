@@ -8,10 +8,6 @@ import css from './css/style.css'
 Vue.config.productionTip = false
 Vue.use(Vuetify)
 
-
-
-
-
 new Vue({
     el: '#app',
     router,

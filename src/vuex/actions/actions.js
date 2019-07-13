@@ -1,25 +1,13 @@
-import surfaceActions from "./editActions";
-import playerActions from "./playerActions";
-import drawActions from "./drawActions";
-import selectActions from "./selectActions";
-import maskActions from "./maskActions";
-import zoomActions from "./zoomActions";
 import appActions from "./appActions";
-import cameraActions from "./cameraActions";
 import userActions from "./userActions"
 import snackbarActions from "./snackbarActions"
 import navActions from "./navActions"
+import eventActions from "./eventActions"
 
 export default {
     ...navActions,
     ...snackbarActions,
     ...userActions,
     ...appActions,
-    ...surfaceActions,
-    ...playerActions,
-    ...drawActions,
-    ...selectActions,
-    ...maskActions,
-    ...zoomActions,
-    ...cameraActions
+    ...eventActions
 }

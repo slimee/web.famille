@@ -66,3 +66,47 @@ html{
     top: 5px;
     right: 5px;
 }
+
+
+.logo-petit-max {
+    height: 1em;
+    width: 1em
+}
+
+.logo-petit {
+    height: 1.5em;
+    width: 1.5em
+}
+
+.logo-tout-petit {
+    height: 1em;
+    width: 1em
+}
+
+.logo-moyen {
+    height: 2em;
+    width: 2em
+}
+
+.logo {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.logo-big {
+    height: 3em;
+    width: 3em;
+}
+
+.logo-very-big {
+    height: 7em;
+    width: 7em;
+}
+
+.add-event {
+    background: url(/img/add_event.svg) no-repeat center;
+}
+
+.family {
+    background: url(/img/family.svg) no-repeat center;
+}

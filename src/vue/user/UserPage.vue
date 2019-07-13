@@ -1,9 +1,8 @@
 <template>
-    <user v-if="user" :user="user"/>
-    <loader v-else-if="!broken"/>
+    <user v-if="user" :user="user"></user>
+    <loader v-else-if="!broken"></loader>
 </template>
 <script>
-    import SubpageTitle from "../tree/SubpageTitle"
     import UserIcon from "./UserIcon"
     import {mapState, mapActions} from "vuex"
     import On from "../../const/on"
@@ -17,7 +16,7 @@
             user: null,
             broken: null
         }),
-        components: {TransitionExpand, User, Loader, UserIcon, SubpageTitle},
+        components: {TransitionExpand, User, Loader, UserIcon},
         props: ['_id'],
         computed: {
             ...mapState({loggedUser: s => s.user})

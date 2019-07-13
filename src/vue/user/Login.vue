@@ -22,7 +22,6 @@
                     </v-form>
                 </v-card-text>
                 <v-card-actions>
-                    <router-link :to="{name:GO.SUSCRIBE}">Cliquez ici pour vous inscrire</router-link>
                     <v-spacer></v-spacer>
                     <v-btn color="primary" @click="validate">Connexion</v-btn>
                 </v-card-actions>
